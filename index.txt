@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="assets/css/fa.min.css" rel="" media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>COLORLIB</title>
+</head>
+
+<body>
+    
+  <div class="container  bg-gray-800 flex flex-wrap  flex-col md:flex-row items-center justify-between z-10">
+          
+            <img src="https://preview.colorlib.com/assets/img/logo.png" class="h-8 pl-5">
+            <button><span class="ml-3 text-gray-400 text-xl bg-black-900">+ Space</span></button>
+        
+          <nav class="md:ml-auto text-gray-400 flex-wrap items-center justify-center">
+            <button class="hover: bg-black-900"><i class="material-icons px-5 ">
+              desktop_windows
+            </i></button>
+            <button><i class="material-icons px-5">
+              tablet_mac
+            </i></button>
+            <button><i class="material-icons px-5">
+              phone_iphone
+            </i></button>
+            <button><i class="material-icons p-5 bg-green-600">
+              shopping_cart
+            </i></button>
+            <button><i class="material-icons px-5">
+              close
+            </i></button>
+            
+          </nav>
+          
+  </div>
+
+<section class="md:mr-60 md:ml-60 translate-x-6">
+  <div class="container flex flex-row text-2xl font-medium justify-between p-10 overflow-x-none">
+    <a href="index.html">Space.</a>
+    <i class="material-icons  ">menu </i>
+  </div>
+  <div>
+   <h1 class="text-black-900 text-4xl  title-font font-normal mb-4">Hey! I'm <span class="title-font font-medium">Space<span class="text-red-900">.</span></span></h1>
+    <p class="title-font font-mono font-bold font-medium tracking-normal text-xl">A minimal, clean, and AJAX driven free portfolio template created by the fine folks at Colorlib.</p>
+    <div class="flex justify-start">
+      <button class="text-white bg-red-500  my-8 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">More free template here</button>
+    
+    </div>
+  </div>
+  <div class="container mx-auto grid grid-rows-3 grid-cols-3 gap-4 rounded">
+    <img src="https://preview.colorlib.com/theme/space/images/img_1.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_2.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_3.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_4.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_5.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_6.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_7.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_8.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_9.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_10.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_11.jpg.webp" alt="Grid Image">
+    <img src="https://preview.colorlib.com/theme/space/images/img_12.jpg.webp" alt="Grid Image">
+
+  </div>
+  <br>
+  <br>
+  
+  <div class="container px-5 py-24 text-gray-400 mx-auto">
+    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Service</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">The Skills to pay the bill</p>
+      <div class="flex mt-6 justify-center">
+        <div class="w-16 h-1 rounded-full bg-grey-500 inline-flex"></div>
+      </div>
+
+    </div>
+  </div>
+  <section class=" body-font">
+    <div class="container mx-auto ">
+      <div class="flex flex-wrap p-10 -m-4">
+        <div class="lg:w-1/3 md:w-1/2 p-15 ">
+          <i class="material-icons ">
+            computer
+          </i>
+          <div class="mt-4">
+           
+            <h2 class="text-gray-900 title-font text-lg font-medium">Web Design</h2>
+            <p class="mt-1 text-justify text-lg text-gray-600 pr-10 pb-10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 p-15 w-full">
+          <i class="material-icons ">
+            camera
+          </i>
+          <div class="mt-4">
+           
+            <h2 class="text-gray-900 title-font text-lg font-medium">Photography</h2>
+            <p class="mt-1 text-justify text-lg text-gray-600 pr-10 pb-10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        
+        <div class="lg:w-1/3 md:w-1/2 p-15 w-full">
+          <i class="material-icons ">
+            pie_chart
+          </i>
+          <div class="mt-4">
+            
+            <h2 class="text-gray-900 title-font text-lg font-medium">Marketing</h2>
+            <p class="mt-1 text-justify text-lg text-gray-600 pr-10 pb-10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 p-15 w-full">
+          <i class="material-icons ">
+            phone_iphone
+          </i>
+          <div class="mt-4">
+           
+            <h2 class="text-gray-900 title-font text-lg font-medium">App Develpment</h2>
+            <p class="mt-1 text-justify text-lg text-gray-600 pr-10 pb-10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 p-15 w-full">
+          <i class="material-icons w-10 h-10 ">
+            lightbulb
+          </i>
+          <div class="mt-4">
+            
+            <h2 class="text-gray-900 title-font text-lg font-medium">Branding</h2>
+            <p class="mt-1 text-justify text-lg text-gray-600 pr-10 pb-10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 p-15 w-full">
+          <i class="material-icons color-black-900">
+            search
+          </i>
+          <div class="mt-4">
+            
+            <h2 class="text-gray-900 title-font text-lg font-medium">Search Ranking</h2>
+            <p class="mt-1 text-justify text-lg text-gray-600 pr-10 pb-10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <div class="container px-5  mx-auto">
+    <div class="flex flex-wrap w-full flex-col items-left text-left">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font  text-black-900">About</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-black-500">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      
+    </div>
+  </div>
+  <section class="text-gray-600 body-font overflow-auto">
+    <div class="container py-12 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="h-60 w-40 rounded" src="https://preview.colorlib.com/theme/space/images/about_pic.jpg.webp">
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+         
+          <h1 class="text-black-900 text-3xl title-font font-medium mb-1">Bio</h1>
+
+          <p class="leading-relaxed text-black-900">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p class="leading-relaxed text-black-900">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+           <div class=" flex flex-wrap ">
+            
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container px-5 py-24 text-black-900 mx-auto">
+    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-black-900">Skills</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-lg">The Skills to pay the bill</p>
+      <div class="flex mt-6 justify-center">
+        <div class="w-16 h-1 rounded-full bg-grey-500 inline-flex"></div>
+      </div>
+
+    </div>
+  </div>
+  <div class="flex justify-evenly items-start h-16">
+    <div class="flex flex-col items-center h-60">
+      <div class="w-16 h-16 relative">
+        <svg class="w-full h-full" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="54" fill="transparent" stroke="#e2e8f0" stroke-width="8"></circle>
+          <circle
+            class="transition-all ease-in-out duration-300"
+            cx="60"
+            cy="60"
+            r="54"
+            fill="transparent"
+            stroke="#e74c3c"
+            stroke-width="8"
+            stroke-dasharray="339.292"
+            style="stroke-dashoffset: -6.74384;"
+          ></circle>
+        </svg>
+        <p class="text-black text-xs font-semibold mt-1">98%</p>
+        <p class="text-black text-lg font-light mt-1">WordPress</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center h-40">
+      <div class="w-16 h-16 relative">
+        <svg class="w-full h-full" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="54" fill="transparent" stroke="#e2e8f0" stroke-width="8"></circle>
+          <circle
+            class="transition-all ease-in-out duration-300"
+            cx="60"
+            cy="60"
+            r="54"
+            fill="transparent"
+            stroke="#e74c3c"
+            stroke-width="8"
+            stroke-dasharray="339.292"
+            style="stroke-dashoffset: -16.97772;"
+          ></circle>
+        </svg>
+        <p class="text-black text-xs font-semibold mt-1">95%</p>
+        <p class="text-black text-lg font-light mt-1">webDesign</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center h-40">
+      <div class="w-16 h-16 relative">
+        <svg class="w-full h-full" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="54" fill="transparent" stroke="#e2e8f0" stroke-width="8"></circle>
+          <circle
+            class="transition-all ease-in-out duration-300"
+            cx="60"
+            cy="60"
+            r="54"
+            fill="transparent"
+            stroke="#e74c3c"
+            stroke-width="8"
+            stroke-dasharray="339.292"
+            style="stroke-dashoffset: -34.08444;"
+          ></circle>
+        </svg>
+        <p class="text-black text-xs font-semibold mt-1">89%</p>
+        <p class="text-black text-lg font-light mt-1">Web/Mobile App</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center h-40">
+      <div class="w-16 h-16 relative">
+        <svg class="w-full h-full" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="54" fill="transparent" stroke="#e2e8f0" stroke-width="8"></circle>
+          <circle
+            class="transition-all ease-in-out duration-300"
+            cx="60"
+            cy="60"
+            r="54"
+            fill="transparent"
+            stroke="#e74c3c"
+            stroke-width="8"
+            stroke-dasharray="339.292"
+            style="stroke-dashoffset: -50.92552;"
+          ></circle>
+        </svg>
+        <p class="text-black text-xs font-semibold mt-1">85%</p>
+        <p class="text-black text-lg font-light mt-1">photoshop</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container px-5 py-24 m-20 text-black-900 mx-auto">
+    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-black-900">Testimonials</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-xl">What clients say...</p>
+      <div class="flex mt-6 justify-center">
+        <div class="w-16 h-1 rounded-full bg-grey-500 inline-flex"></div>
+      </div>
+
+    </div>
+  </div>
+  
+  
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 -mt-60">
+      <div class="flex flex-wrap align-center -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 hover:border-red-900 rounded-lg overflow-hidden">
+            <img class="h-20 w-20 rounded-full mx-20 my-10" src="https://preview.colorlib.com/theme/space/images/person_1.jpg.webp" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">James Smith</h1>
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CEo & Co-Founder</h2>
+              
+              <p class="leading-relaxed text-center mb-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live thblind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 hover:border-red-900 rounded-lg overflow-hidden">
+            <img class="h-20 w-20 rounded-full mx-20 my-10" src="https://preview.colorlib.com/theme/space/images/person_2.jpg.webp" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">James Smith</h1>
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CEo & Co-Founder</h2>
+            
+              <p class="leading-relaxed text-center mb-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 hover:border-red-900 rounded-lg overflow-hidden">
+            <img class="h-20 w-20 rounded-full mx-20 my-10" src="https://preview.colorlib.com/theme/space/images/person_3.jpg.webp" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">James Smith</h1>
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CEo & Co-Founder</h2>
+              
+              <p class="leading-relaxed mb-3 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+             
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="container px-5 py-24 text-black-900 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-black-900">Skills</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-lg">The Skills to pay the bill</p>
+            <div class="flex mt-6 justify-center">
+              <div class="w-16 h-1 rounded-full bg-grey-500 inline-flex"></div>
+            </div>
+      
+          </div>
+        </div>
+        
+        
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://preview.colorlib.com/theme/space/images/gal_1.jpg.webp">
+          </a>
+          <div class="mt-4">
+         
+            <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+            <p class="mt-1">Aug 4, 2020 by <strong>Admin</strong> in <strong>Web Design</strong></p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://preview.colorlib.com/theme/space/images/gal_2.jpg.webp">
+          </a>
+          <div class="mt-4">
+            
+            <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+            <p class="mt-1">Aug 4, 2020 by <strong>Admin</strong> in <strong>Web Design</strong></p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://preview.colorlib.com/theme/space/images/gal_3.jpg.webp">
+          </a>
+          <div class="mt-4">
+            
+            <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+            <p class="mt-1">Aug 4, 2020 by <strong>Admin</strong> in <strong>Web Design</strong></p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://preview.colorlib.com/theme/space/images/gal_4.jpg.webp">
+          </a>
+          <div class="mt-4">
+            
+            <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+            <p class="mt-1">Aug 4, 2020 by <strong>Admin</strong> in <strong>Web Design</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container px-5 py-24 m-15 text-black-900 ">
+    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-black-900">Contact</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-xl">Available for work, Get in touch</p>
+      <div class="flex mt-6 justify-center">
+        <div class="w-16 h-1 rounded-full bg-grey-500 inline-flex"></div>
+      </div>
+
+    </div>
+  </div>
+  
+
+  <section class="text-gray-600 body-font flex flex-row relative -mt-40">
+    
+    <div class="container h-80">
+     
+      <div class="relative flex flex-row mb-4">
+        <label for="name" class="leading-7 text-xl text-gray-600">Firstname</label>
+        <input type="text" id="name" name="name" class="">
+        <hr>
+        <label for="name" class="leading-7 text-xl text-gray-600">Lastname</label>
+        <input type="text" id="name" name="name" class="">
+        <hr>
+      </div>
+      <div class="relative mb-4">
+        <label for="email" class="leading-7 text-xl text-gray-600">Enter Email</label>
+        <input type="email" id="email" name="email" class="">
+        <hr class="color-black-900"> 
+
+      </div>
+      
+      <div class="relative mb-4">
+        <label for="message" class="leading-7 text-xl text-gray-600">Write your message...<br><br><br></label>
+        <textarea id="message" name="message" class=""></textarea>
+      </div>
+      
+      <button class="text-white mt-20 mb-4 bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Send Message</button>
+      
+      
+    </div>
+    <div class=" mx-auto flex sm:flex-nowrap flex-wrap">
+      <div class="lg:w-2/3 md:w-1/2 h-1/2 sm:mr-10 p-10 flex items-end justify-right relative">
+        <iframe width="1000%" height="500%" class="mr-80 -mb-60" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=800%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <footer class=" bg-gray-800 body-font mt-40 w-full">
+    <div class="container text-white px-5 py-10 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center order-first">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">HOME</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Colorlib</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">About us</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Projects</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Services</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Terms</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Privacy</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Projects</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">HTML5</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">CSS3</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Colorlib</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Free Templets</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">WordPress Themes</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Services</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Colorlib</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">jQuery</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Bootsteap</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Freebies</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">Contact</h2>
+          <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">43 Raymouth Rd. Baltmoer, London 3910</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-600">+1(123)-456-7890</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-600">+1(123)-456-7890</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-600">info@mydomain.com</a>
+            </li>
+           
+        </div>
+        <h2 class="title-font font-medium text-white tracking-widest -mr-10 align-right text-sm mb-3">Connect</h2>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+       
+        </div>
+        <p class="text-white-900 ml-60 mb-20">Copyright ©2023 All rights reserved | This template is made with  by Colorlib</p>
+      </div>
+      
+    </div>
+   
+  </footer
+
+  
+  
+  </section>
+    
+  </body>
+</html>
